@@ -142,7 +142,8 @@ void menu(){
 			cin >> pilihan;
 				if(pilihan=='y'||pilihan=='Y'){
 					main();
-				}else{
+				}
+				else{
 					// mencetak label tutup.
 					tutup :			
 					system("cls");
@@ -164,7 +165,8 @@ void lagi(){
 	
 	if(pilih=='y'||pilih=='Y'){
 		main();
-	}else{
+	}
+	else{
 		system("cls");
 		cout << "\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t    TERIMA KASIH SUDAH MEMAINKAN GAME PACMAN by JIFARO\n\n\n";
 		cout << "\t\t\t\t\t\t          /\\_/\\" << endl;
